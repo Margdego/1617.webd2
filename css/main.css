@@ -91,17 +91,17 @@ h3, h4 {
 }
 
 /* About Us */
-.tekstaboutus1 {
+.tekstoverons1 {
     text-align: right;
     margin: auto;
 }
 
-.tekstaboutus2 {
+.tekstoverons2 {
     text-align: left; 
     margin: auto; 
 }
 
-.fotoaboutus {
+.fotooverons {
     height:205px; 
 }
 
@@ -111,7 +111,7 @@ h3, h4 {
     text-align: left;
 }
 
-/* Artists */
+/* artiesten */
 
 .fotoartist {
     opacity: 0.7;
@@ -123,11 +123,11 @@ h3, h4 {
     opacity: 1;
 }
 
-.artists a{
+.artiesten a{
    text-decoration: none; 
 }
 
-.artists a:hover h4 {
+.artiesten a:hover h4 {
     color: white; 
 }
 
@@ -136,7 +136,7 @@ h3, h4 {
     color: black; 
 }
 
-.artists a:hover p {
+.artiesten a:hover p {
     color: white; 
 }
 
@@ -156,7 +156,7 @@ h3, h4 {
     text-decoration: none; 
     color: #cca434;
 }
-/* Contact */ 
+/* contact */ 
 
 .openingsuren, .adres {
     list-style-type: none; 
