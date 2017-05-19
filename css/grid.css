@@ -1,0 +1,100 @@
+.grid__wrapper {
+    display: block;
+    margin: 0;
+    padding: 0;
+}
+
+.grid__container {
+    display: block;
+    max-width: 1140px;
+    margin: 0 auto;
+}
+
+.grid__row {
+    display: block;
+    padding: 0;
+    overflow: hidden;
+}
+
+.grid__wrapper:after,
+.grid__container:after,
+.grid__row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.grid__column-12,
+.grid__column-11,
+.grid__column-10,
+.grid__column-9,
+.grid__column-8,
+.grid__column-7,
+.grid__column-6,
+.grid__column-5,
+.grid__column-4,
+.grid__column-3,
+.grid__column-2,
+.grid__column-1 {
+    position: relative;
+    display: block;
+    float: left;
+    margin: 0 1%;
+}
+
+.grid__column-12 { width: 98%; }
+.grid__column-11 { width: 89.66666%; }
+.grid__column-10 { width: 81.33333%; }
+.grid__column-9 {  width: 73%; }
+.grid__column-8 {  width: 64.66666%; }
+.grid__column-7 {  width: 56.33333%; }
+.grid__column-6 {  width: 48%; }
+.grid__column-5 {  width: 39.66666%; }
+.grid__column-4 {  width: 31.33333%; }
+.grid__column-3 {  width: 23%; }
+.grid__column-2 {  width: 14.66666%; }
+.grid__column-1 {  width: 6.33333%; }
+
+.grid__offset-12 { margin-left: 100%; }
+.grid__offset-11 { margin-left: 91.666666666667%; }
+.grid__offset-10 { margin-left: 83.333333333333%; }
+.grid__offset-9 {  margin-left: 75%; }
+.grid__offset-8 {  margin-left: 66.666666666667%; }
+.grid__offset-7 {  margin-left: 58.333333333333%; }
+.grid__offset-6 {  margin-left: 50%; }
+.grid__offset-5 {  margin-left: 41.666666666667%; }
+.grid__offset-4 {  margin-left: 33.333333333333%; }
+.grid__offset-3 {  margin-left: 25%; }
+.grid__offset-2 {  margin-left: 16.666666666667%; }
+.grid__offset-1 {  margin-left: 8.333333333333%; }
+
+@media screen and (max-width: 480px) {
+    .grid__column-12,
+    .grid__column-11,
+    .grid__column-10,
+    .grid__column-9,
+    .grid__column-8,
+    .grid__column-7,
+    .grid__column-6,
+    .grid__column-5,
+    .grid__column-4,
+    .grid__column-3,
+    .grid__column-2,
+    .grid__column-1 {
+        width: 98%;
+    }
+    
+    .grid__offset-12,
+    .grid__offset-11,
+    .grid__offset-10,
+    .grid__offset-9,
+    .grid__offset-8,
+    .grid__offset-7,
+    .grid__offset-6,
+    .grid__offset-5,
+    .grid__offset-4,
+    .grid__offset-3,
+    .grid__offset-2,
+    .grid__offset-1 {
+        margin-left: 0;
+    }

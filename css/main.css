@@ -1,0 +1,185 @@
+*{ box-sizing: border-box; }
+
+/* Background + Typography*/
+body {
+    font-family:'Raleway', sans-serif; 
+    background-image: url(../images/Achtergrond.jpg);
+    background-repeat: no-repeat; 
+    background-size: cover; 
+    background-attachment: fixed; 
+    margin: 0; 
+}
+
+/* Navigation */
+.navrow {
+    background-color: rgba(134,169,169,0.7); 
+    font-size: 23px;
+}
+
+.navigation {
+    position: absolute;
+    list-style-type: none;
+    overflow: hidden;
+    display:inline-block;
+}
+
+.nav1 {
+    display:inline-block;
+}
+
+.nav1 a {
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    display: inline-block;
+}
+
+.nav1 a:hover {
+    color: white; 
+}
+
+/* Footer */
+footer {
+    background-color: rgba(153,164,166,0.9);
+    width: 100%; 
+    margin-top: 30px; 
+    align-content: center;
+}
+
+.adresfooter {
+    color:white;
+    margin: 10px; 
+    list-style-type: none; 
+    font-weight: bold; 
+}
+
+.reserved {
+    color: white;
+    margin: 10px;
+    font-weight: bold; 
+}
+
+.social {
+    margin-top: 20px;
+    margin-bottom: 20px; 
+    width: 2%;
+    height: auto; 
+}
+
+/* General */ 
+h3, h4 {
+    color: #cca434; 
+}
+
+.achtergrond {
+    padding: 30px; 
+    font-size: 20px; 
+    margin-top: 20px; 
+    background-color: rgba(255,255,255,0.7); 
+    text-align: center;
+    border: 2px solid #cca434; 
+    margin-bottom: 40px; 
+}
+
+/* Home */
+.manen {
+    margin-top: 30px; 
+    margin-bottom: 30px; 
+    width: 100%; 
+}
+
+/* About Us */
+.tekstaboutus1 {
+    text-align: right;
+    margin: auto;
+}
+
+.tekstaboutus2 {
+    text-align: left; 
+    margin: auto; 
+}
+
+.fotoaboutus {
+    height:205px; 
+}
+
+/* How We Do Things */ 
+
+.hwdt {
+    text-align: left;
+}
+
+/* Artists */
+
+.fotoartist {
+    opacity: 0.7;
+    margin-top: 20px; 
+    height: 205px;
+}
+
+.fotoartist:hover {
+    opacity: 1;
+}
+
+.artists a{
+   text-decoration: none; 
+}
+
+.artists a:hover h4 {
+    color: white; 
+}
+
+.art {
+    margin-top: -30px; 
+    color: black; 
+}
+
+.artists a:hover p {
+    color: white; 
+}
+
+/* Portfolio */
+
+.Portfolio {
+    height: 205px; 
+    margin-top: 20px; 
+}
+
+.Portfolio:hover {
+    opacity: 0.7;
+    filter: alpha(opacity=70);
+}
+
+.back {
+    text-decoration: none; 
+    color: #cca434;
+}
+/* Contact */ 
+
+.openingsuren, .adres {
+    list-style-type: none; 
+}
+
+.map {
+    width: 100%; 
+    height: 300px; 
+}
+
+.form {
+    text-align: left;
+}
+
+.input {
+    height: 50px;
+}
+
+button {
+    background-color: #cca434;
+    border-radius: 5px; 
+    border: none; 
+}
+
+
+
